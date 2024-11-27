@@ -98,7 +98,7 @@ function drawGame() {
     for (let y = 0; y < mazeSize; y++) {
         for (let x = 0; x < mazeSize; x++) {
             if (maze[y][x] === 1) {
-                ctx.fillStyle = '#000';
+                ctx.fillStyle = '#808080';
                 ctx.fillRect(x * cellSize, y * cellSize, cellSize, cellSize);
             } else {
                 ctx.fillStyle = '#FFFFFF';
